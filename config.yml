@@ -1,0 +1,5 @@
+port: 9100
+secret: "yyyr55678ubgfs"
+log: 
+  file: ""
+  level: debug
