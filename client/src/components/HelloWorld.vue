@@ -30,7 +30,7 @@
       </li>
     </ul>
     <ul v-if="errors.length">
-      <li v-for="err of errors">
+      <li v-for="(err, index) of errors" :key="index">
         <strong>Error: </strong>{{ err }}
       </li>
     </ul>
